@@ -10,7 +10,7 @@ Dim TramNumber As Integer
         B = Fix(TramNumber / 10000) Mod 10
         A = Fix(TramNumber / 100000) Mod 10
         If (X + Y + Z) = (A + B + C) Then
-            MsgBox("Счастливый билет")
+            MsgBox("happy ticket")
         Else
-            MsgBox("Несчастливый билет")
+            MsgBox("unlucky ticket")
         End If
